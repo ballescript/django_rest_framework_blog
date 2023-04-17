@@ -135,6 +135,12 @@ REST_FRAMEWORK = {
     ]
 }
 
+# Permissions:
+# AllowAny
+# IsAuthenticated
+# IsAdminUser
+# IsAuthenticatedOrReadOnly
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
 ]
